@@ -5,7 +5,7 @@ This repository contains terraform code that creates an AWS EC2 instance running
 ## Prerequisites:
 1. AWS account
 2. SSH Keypair
-3. (optional) [The AMI build during the packer-aws-nginx excercise](https://github.com/qwerty1979bg/packer2-aws-gninx)
+3. (optional) [The AMI built during the packer-aws-nginx excercise](https://github.com/qwerty1979bg/packer2-aws-gninx)
 
 ## Usage
 
