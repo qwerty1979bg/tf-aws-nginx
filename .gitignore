@@ -7,3 +7,10 @@
 
 # .tfvars files
 *.tfvars
+
+.kitchen.yml
+.kitchen
+
+.ruby-version
+
+Gemfile.lock
