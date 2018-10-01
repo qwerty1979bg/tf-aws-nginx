@@ -3,9 +3,9 @@
 This repository contains terraform code that creates an AWS EC2 instance running NGINX + Kitchen terraform test
 
 ## Prerequisites:
-AWS account
-SSH Keypair
-(optional) [The AMI build during the packer-aws-nginx excercise](https://github.com/qwerty1979bg/packer2-aws-gninx)
+1. AWS account
+2. SSH Keypair
+3. (optional) [The AMI build during the packer-aws-nginx excercise](https://github.com/qwerty1979bg/packer2-aws-gninx)
 
 ## Usage
 
