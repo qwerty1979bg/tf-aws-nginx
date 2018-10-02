@@ -1,0 +1,28 @@
+---
+driver:
+  name: terraform
+#  variable_files:
+#    - testing.tfvars
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: nginx
+
+verifier:
+  name: terraform
+  systems:
+    - name: default
+      backend: ssh
+      hosts_output: connect_here
+      user: ec2-user
+      key_files:
+        - ~/.ssh/id_rsa
+#      controls:
+#      - check_pkg
+#      - operating_system
+#      - check_website
+
+suites:
+  - name: default
